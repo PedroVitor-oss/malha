@@ -17,11 +17,6 @@ export default function App() {
     <>
       <Nav config={config} />
       <main>
-        {/*
-          A ordem das seções é só a ordem em que aparecem aqui.
-          Para reorganizar a página, mova os componentes de lugar.
-          Para editar textos, números e contatos, edite app/config/site.json.
-        */}
         <Hero config={config} />
         <WhatWeDo config={config} />
         <Works config={config} />

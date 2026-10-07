@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Container } from "../ui/Container";
 import { Reveal } from "../ui/Reveal";
 import type { SiteConfig } from "../../config/types";
@@ -26,8 +27,8 @@ export function Works({ config }: { config: SiteConfig }) {
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-3">
-          {works.items.map((item, i) => (
-            <Reveal key={item.title} delay={0.08 * i}>
+          {works.items.map((item, i) => {
+            const card = (
               <article className="group flex h-full flex-col rounded-2xl border border-ink-line bg-ink-soft p-7 transition-colors hover:border-thread/40">
                 <div className="flex items-center justify-between">
                   <span
@@ -56,9 +57,27 @@ export function Works({ config }: { config: SiteConfig }) {
                 <p className="mt-4 text-sm leading-relaxed text-fog">
                   {item.description}
                 </p>
+
+                {item.slug && (
+                  <span className="mt-auto pt-6 font-mono text-xs uppercase tracking-wide text-thread transition-transform group-hover:translate-x-1">
+                    Ver o case →
+                  </span>
+                )}
               </article>
-            </Reveal>
-          ))}
+            );
+
+            return (
+              <Reveal key={item.title} delay={0.08 * i}>
+                {item.slug ? (
+                  <Link to={`/projetos/${item.slug}`} className="block h-full">
+                    {card}
+                  </Link>
+                ) : (
+                  card
+                )}
+              </Reveal>
+            );
+          })}
         </div>
       </Container>
     </section>

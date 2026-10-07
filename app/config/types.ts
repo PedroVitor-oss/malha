@@ -30,6 +30,8 @@ export interface SiteConfig {
     heading: string;
     paragraph: string;
     items: {
+      /** Se preenchido, o card abre /projetos/<slug>. Deve ser igual ao "slug" do JSON em config/projects/ */
+      slug?: string;
       tag: string;
       category: string;
       segment: string;

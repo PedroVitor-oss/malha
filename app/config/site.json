@@ -48,6 +48,7 @@
     "paragraph": "Ainda estamos construindo nosso portfólio de clientes reais — estes são exemplos representativos do tipo de projeto que fazemos.",
     "items": [
       {
+        "route":"/project/finance-game",
         "tag": "Desenvolvimento",
         "category": "Economia",
         "segment": "Projeto de Faculdade",

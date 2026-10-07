@@ -1,0 +1,260 @@
+{
+  "slug": "finance-game",
+  "draft": true,
+
+  "hero": {
+    "name": "[A DEFINIR] FinGamify",
+    "tagline": "Educação financeira gamificada para a Geração Z",
+    "status": "Conceito",
+    "links": [
+      { "label": "Ver protótipo", "href": "#design" },
+      { "label": "Ver deploy", "href": "" },
+      { "label": "Repositório", "href": "" }
+    ],
+    "image": {
+      "src": "",
+      "alt": "Mockup da tela principal do app de educação financeira",
+      "suggestion": "Mockup do celular com a tela de missões diárias e barra de XP"
+    }
+  },
+
+  "context": {
+    "scenario": [
+      "Grande parte dos jovens termina o ensino médio sem noções básicas de educação financeira.",
+      "Endividamento e inadimplência entre jovens adultos crescem ano a ano no Brasil.",
+      "Conteúdo financeiro tradicional é percebido como chato, técnico e distante da realidade da Geração Z."
+    ],
+    "audience": "Jovens de 15 a 24 anos, estudantes ou no primeiro emprego, que querem aprender a lidar com dinheiro mas não se engajam com conteúdo financeiro tradicional.",
+    "pains": [
+      "Não sabem por onde começar a aprender sobre dinheiro",
+      "Acham finanças um assunto chato e distante",
+      "Não têm referência familiar sobre organização financeira",
+      "Consomem conteúdo financeiro mas não aplicam na prática"
+    ],
+    "hypothesis": "Se a educação financeira for entregue em formato de jogo, com missões curtas e recompensas, então os jovens vão se engajar mais e aprender de forma consistente.",
+    "sources": [
+      "[A DEFINIR] Pesquisa de campo com o público-alvo",
+      "[A DEFINIR] Dados do Banco Central / Serasa / SPC sobre endividamento jovem",
+      "[A DEFINIR] Referências sobre gamificação aplicada à educação"
+    ]
+  },
+
+  "research": {
+    "methodology": "[A DEFINIR] Formulário online aplicado com jovens da faixa etária alvo.",
+    "sample": {
+      "quantity": "[A DEFINIR]",
+      "profile": "[A DEFINIR] Jovens de 15 a 24 anos",
+      "period": "[A DEFINIR]"
+    },
+    "questions": [
+      "[A DEFINIR] Você já teve alguma aula ou conteúdo sobre educação financeira?",
+      "[A DEFINIR] O que te impede de aprender sobre dinheiro?",
+      "[A DEFINIR] Você joga jogos com missões, XP ou recompensas? Com que frequência?",
+      "[A DEFINIR] Você usaria um app que ensina finanças como se fosse um jogo?"
+    ],
+    "results": [
+      {
+        "title": "[A DEFINIR] Principal barreira para aprender finanças",
+        "items": [
+          { "label": "[A DEFINIR]", "value": 0 },
+          { "label": "[A DEFINIR]", "value": 0 },
+          { "label": "[A DEFINIR]", "value": 0 }
+        ]
+      },
+      {
+        "title": "[A DEFINIR] Familiaridade com jogos",
+        "items": [
+          { "label": "[A DEFINIR]", "value": 0 },
+          { "label": "[A DEFINIR]", "value": 0 },
+          { "label": "[A DEFINIR]", "value": 0 }
+        ]
+      }
+    ],
+    "insights": [
+      "[A DEFINIR]",
+      "[A DEFINIR]",
+      "[A DEFINIR]"
+    ]
+  },
+
+  "personas": {
+    "people": [
+      {
+        "name": "[A DEFINIR]",
+        "age": 0,
+        "role": "[A DEFINIR] Estudante do ensino médio",
+        "pain": "[A DEFINIR]",
+        "goal": "[A DEFINIR]",
+        "quote": "[A DEFINIR]"
+      },
+      {
+        "name": "[A DEFINIR]",
+        "age": 0,
+        "role": "[A DEFINIR] Jovem no primeiro emprego",
+        "pain": "[A DEFINIR]",
+        "goal": "[A DEFINIR]",
+        "quote": "[A DEFINIR]"
+      }
+    ],
+    "journey": {
+      "before": [
+        "[A DEFINIR] Não sabe por onde começar",
+        "[A DEFINIR] Acha finanças chatas",
+        "[A DEFINIR] Desiste depois do primeiro conteúdo"
+      ],
+      "during": [
+        "[A DEFINIR] Abre o app e vê as missões do dia",
+        "[A DEFINIR] Completa tarefas curtas e ganha XP",
+        "[A DEFINIR] Sobe de nível e desbloqueia conteúdos"
+      ],
+      "after": [
+        "[A DEFINIR] Aplica o que aprendeu no dia a dia",
+        "[A DEFINIR] Compartilha conquistas com amigos",
+        "[A DEFINIR] Mantém o hábito por meio de streaks"
+      ]
+    }
+  },
+
+  "design": {
+    "fidelity": "Média",
+    "screens": [
+      {
+        "name": "[A DEFINIR] Onboarding",
+        "description": "[A DEFINIR] Primeiro contato do jovem com o app e definição de objetivos.",
+        "image": { "src": "", "alt": "Tela de onboarding", "suggestion": "Fluxo de boas-vindas em 3 telas" }
+      },
+      {
+        "name": "[A DEFINIR] Missões diárias",
+        "description": "[A DEFINIR] Lista de tarefas curtas de educação financeira.",
+        "image": { "src": "", "alt": "Tela de missões", "suggestion": "Cards de missões com recompensa em XP" }
+      },
+      {
+        "name": "[A DEFINIR] Perfil e progresso",
+        "description": "[A DEFINIR] Nível, XP, badges e histórico do usuário.",
+        "image": { "src": "", "alt": "Tela de perfil", "suggestion": "Barra de progresso + badges conquistadas" }
+      },
+      {
+        "name": "[A DEFINIR] Ranking",
+        "description": "[A DEFINIR] Comparação de pontos entre amigos.",
+        "image": { "src": "", "alt": "Tela de ranking", "suggestion": "Leaderboard entre amigos" }
+      }
+    ],
+    "flow": [
+      "[A DEFINIR] Abre o app",
+      "[A DEFINIR] Vê missão do dia",
+      "[A DEFINIR] Completa a missão",
+      "[A DEFINIR] Ganha XP e sobe de nível",
+      "[A DEFINIR] Desbloqueia nova recompensa"
+    ],
+    "figma": { "label": "Abrir no Figma", "href": "" }
+  },
+
+  "validation": {
+    "methodology": "[A DEFINIR] Teste de usabilidade com o protótipo de média fidelidade.",
+    "tasks": [
+      "[A DEFINIR] Completar a primeira missão",
+      "[A DEFINIR] Encontrar o próprio nível e XP",
+      "[A DEFINIR] Comparar pontos com um amigo"
+    ],
+    "metrics": [
+      { "label": "[A DEFINIR] Conclusão das tarefas", "value": "", "hint": "" },
+      { "label": "[A DEFINIR] Tempo médio por tarefa", "value": "" },
+      { "label": "[A DEFINIR] SUS", "value": "", "hint": "acima de 68 é considerado bom" }
+    ],
+    "worked": [
+      "[A DEFINIR]"
+    ],
+    "didntWork": [
+      "[A DEFINIR]"
+    ],
+    "iterations": [
+      "[A DEFINIR]"
+    ]
+  },
+
+  "solution": {
+    "features": [
+      { "title": "Missões diárias", "description": "[A DEFINIR] Tarefas curtas de educação financeira com recompensa em XP." },
+      { "title": "Sistema de níveis e XP", "description": "[A DEFINIR] Progressão visível que incentiva o retorno ao app." },
+      { "title": "Badges e conquistas", "description": "[A DEFINIR] Recompensas por marcos de aprendizado." },
+      { "title": "Ranking entre amigos", "description": "[A DEFINIR] Competição saudável que aumenta o engajamento." },
+      { "title": "Streaks", "description": "[A DEFINIR] Sequência de dias ativos que cria hábito." },
+      { "title": "Simulador financeiro", "description": "[A DEFINIR] Aplicação prática dos conceitos aprendidos." }
+    ],
+    "differentials": [
+      "Conteúdo pensado para a linguagem da Geração Z",
+      "Aprendizado por prática, não por aula expositiva",
+      "Gamificação como motor do hábito, não como enfeite"
+    ],
+    "media": [
+      { "alt": "Fluxo de missão", "suggestion": "GIF completando uma missão e ganhando XP" },
+      { "alt": "Ranking entre amigos", "suggestion": "Print do leaderboard" },
+      { "alt": "Perfil com badges", "suggestion": "Print da tela de conquistas" }
+    ]
+  },
+
+  "tech": {
+    "stack": [
+      { "group": "Front-end", "items": ["[A DEFINIR] React", "[A DEFINIR] Tailwind CSS", "[A DEFINIR] Motion"] },
+      { "group": "Back-end", "items": ["[A DEFINIR] Node.js", "[A DEFINIR] PostgreSQL"] },
+      { "group": "Design", "items": ["Figma"] }
+    ],
+    "architecture": [
+      { "layer": "Interface", "items": ["[A DEFINIR] App web", "[A DEFINIR] Painel de progresso"] },
+      { "layer": "Lógica de jogo", "items": ["[A DEFINIR] XP", "[A DEFINIR] Missões", "[A DEFINIR] Ranking"] },
+      { "layer": "Dados", "items": ["[A DEFINIR] Usuários", "[A DEFINIR] Progresso", "[A DEFINIR] Conquistas"] }
+    ],
+    "repository": { "label": "Ver repositório", "href": "" }
+  },
+
+  "results": {
+    "achievements": [
+      "[A DEFINIR] Pesquisa de campo aplicada",
+      "[A DEFINIR] Protótipo de média fidelidade desenvolvido",
+      "[A DEFINIR] Validação de uso realizada"
+    ],
+    "metrics": [
+      { "label": "[A DEFINIR] Pessoas ouvidas", "value": "" },
+      { "label": "[A DEFINIR] Telas prototipadas", "value": "" },
+      { "label": "[A DEFINIR] SUS do protótipo", "value": "" }
+    ],
+    "roadmap": [
+      { "phase": "Descoberta", "status": "doing", "items": ["Pesquisa de campo", "Personas", "Jornada"] },
+      { "phase": "Protótipo", "status": "next", "items": ["Telas principais", "Teste com usuários"] },
+      { "phase": "MVP", "status": "next", "items": ["Missões diárias", "XP e níveis"] },
+      { "phase": "Piloto", "status": "next", "items": ["Teste com turma real", "Medir engajamento"] }
+    ]
+  },
+
+  "team": {
+    "company": {
+      "name": "[A DEFINIR]",
+      "mission": "[A DEFINIR] Tornar a educação financeira acessível e divertida para a nova geração.",
+      "vision": "[A DEFINIR] Ser referência em aprendizado financeiro gamificado para jovens no Brasil."
+    },
+    "members": [
+      { "name": "[A DEFINIR]", "role": "[A DEFINIR]" },
+      { "name": "[A DEFINIR]", "role": "[A DEFINIR]" },
+      { "name": "[A DEFINIR]", "role": "[A DEFINIR]" }
+    ],
+    "contact": [
+      { "label": "[A DEFINIR] contato@empresa.tech", "href": "mailto:contato@empresa.tech" },
+      { "label": "[A DEFINIR] @empresa.tech", "href": "" }
+    ]
+  },
+
+  "executiveSummary": [
+    "[A DEFINIR] Jovens não aprendem educação financeira porque o conteúdo tradicional não engaja.",
+    "[A DEFINIR] O projeto transforma o aprendizado financeiro em um jogo com missões, XP e recompensas.",
+    "[A DEFINIR] A pesquisa e a validação serão usadas para evoluir o protótipo até o MVP."
+  ],
+
+  "footer": {
+    "quickLinks": [
+      { "label": "Início", "href": "/" },
+      { "label": "Trabalhos", "href": "/#trabalhos" },
+      { "label": "Contato", "href": "/#contato" }
+    ],
+    "credits": "[A DEFINIR] Projeto acadêmico desenvolvido pela equipe."
+  }
+}

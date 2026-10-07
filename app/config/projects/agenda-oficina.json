@@ -1,0 +1,267 @@
+{
+  "slug": "agenda-oficina",
+  "draft": true,
+
+  "hero": {
+    "name": "Agenda Oficina",
+    "tagline": "Agendamento online simples para oficinas mecânicas independentes",
+    "status": "Conceito",
+    "links": [
+      { "label": "Ver protótipo", "href": "#design" },
+      { "label": "Ver deploy", "href": "" },
+      { "label": "Repositório", "href": "" }
+    ],
+    "image": {
+      "src": "",
+      "alt": "Mockup da tela principal do Agenda Oficina",
+      "suggestion": "Mockup da agenda do dia em notebook e celular, lado a lado"
+    }
+  },
+
+  "context": {
+    "scenario": [
+      "Oficinas pequenas agendam serviços por ligação e WhatsApp, anotando em caderno ou planilha.",
+      "Sem confirmação automática, horários são esquecidos e a agenda fica com buracos.",
+      "O cliente não tem como saber se o carro já está pronto sem ligar de novo."
+    ],
+    "audience": "Donos e atendentes de oficinas mecânicas independentes (até 5 funcionários) e os motoristas que levam o carro para manutenção.",
+    "pains": [
+      "Cliente esquece o horário e a oficina perde a hora de trabalho",
+      "Agendamentos duplicados ou em horário errado",
+      "Atendimento interrompido toda hora por ligações simples",
+      "Nenhum histórico organizado do cliente e do veículo"
+    ],
+    "hypothesis": "Se a oficina tiver uma agenda online com confirmação automática pelo WhatsApp, então haverá menos faltas e menos tempo gasto atendendo ligações.",
+    "sources": [
+      "[A DEFINIR] Entrevistas com donos de oficinas da região",
+      "[A DEFINIR] Formulário aplicado a motoristas",
+      "[A DEFINIR] Artigos sobre gestão de oficinas independentes"
+    ]
+  },
+
+  "research": {
+    "methodology": "Formulário online para motoristas e entrevistas curtas por telefone com donos de oficina.",
+    "sample": {
+      "quantity": "24 respostas + 3 entrevistas",
+      "profile": "Motoristas e donos de oficina de Curitiba e região",
+      "period": "2 semanas"
+    },
+    "questions": [
+      "Como você agenda ou recebe agendamentos hoje?",
+      "Qual foi a última vez que um horário foi perdido? O que aconteceu?",
+      "O que você mais gostaria de não precisar fazer manualmente?",
+      "Você usaria um link de agendamento enviado pelo WhatsApp?"
+    ],
+    "results": [
+      {
+        "title": "Como o agendamento é feito hoje",
+        "items": [
+          { "label": "WhatsApp", "value": 58 },
+          { "label": "Telefone", "value": 25 },
+          { "label": "Caderno ou planilha", "value": 12 },
+          { "label": "Sistema próprio", "value": 5 }
+        ]
+      },
+      {
+        "title": "Maior dor relatada",
+        "items": [
+          { "label": "Faltas e esquecimentos", "value": 46 },
+          { "label": "Horário duplicado ou errado", "value": 29 },
+          { "label": "Demora para responder", "value": 25 }
+        ]
+      }
+    ],
+    "insights": [
+      "O WhatsApp já é o canal principal — o produto precisa nascer dentro dele, não ao lado dele.",
+      "A maior perda não é falta de cliente, é horário vazio por esquecimento.",
+      "Quem agenda quer resposta imediata; quem atende quer parar de responder a mesma pergunta."
+    ]
+  },
+
+  "personas": {
+    "people": [
+      {
+        "name": "Seu Carlos",
+        "age": 52,
+        "role": "Dono de oficina há 18 anos",
+        "pain": "Perde horas por semana respondendo agendamentos e ainda tem clientes que não aparecem.",
+        "goal": "Ter a agenda do dia organizada sem depender de caderno.",
+        "quote": "Eu não quero aprender sistema, eu quero que a agenda se encha sozinha."
+      },
+      {
+        "name": "Fernanda",
+        "age": 34,
+        "role": "Motorista de aplicativo",
+        "pain": "Precisa do carro rodando e não consegue ligar durante o expediente.",
+        "goal": "Marcar a revisão rápido e saber quando o carro fica pronto.",
+        "quote": "Se eu pudesse escolher o horário pelo celular, já resolvia."
+      }
+    ],
+    "journey": {
+      "before": [
+        "Liga ou manda mensagem e espera resposta",
+        "Combina horário e anota por conta própria",
+        "Esquece e precisa remarcar"
+      ],
+      "during": [
+        "Recebe o link de agendamento pelo WhatsApp",
+        "Escolhe serviço e horário disponível",
+        "Recebe confirmação automática"
+      ],
+      "after": [
+        "Recebe lembrete um dia antes",
+        "É avisado quando o carro fica pronto",
+        "Histórico fica salvo para a próxima visita"
+      ]
+    }
+  },
+
+  "design": {
+    "fidelity": "Média",
+    "screens": [
+      {
+        "name": "Agenda do dia",
+        "description": "Visão da oficina com horários, serviços e status de cada carro.",
+        "image": { "src": "", "alt": "Tela da agenda do dia", "suggestion": "Lista de horários do dia com status por cor" }
+      },
+      {
+        "name": "Novo agendamento",
+        "description": "Cliente escolhe serviço, data e horário em três passos.",
+        "image": { "src": "", "alt": "Tela de novo agendamento", "suggestion": "Fluxo em 3 passos no celular" }
+      },
+      {
+        "name": "Confirmação",
+        "description": "Resumo do agendamento e envio automático pelo WhatsApp.",
+        "image": { "src": "", "alt": "Tela de confirmação", "suggestion": "Resumo do agendamento + botão do WhatsApp" }
+      },
+      {
+        "name": "Histórico do cliente",
+        "description": "Serviços anteriores e dados do veículo em um só lugar.",
+        "image": { "src": "", "alt": "Tela de histórico", "suggestion": "Linha do tempo de serviços por veículo" }
+      }
+    ],
+    "flow": [
+      "Recebe o link",
+      "Escolhe o serviço",
+      "Escolhe o horário",
+      "Confirma os dados",
+      "Recebe confirmação no WhatsApp"
+    ],
+    "figma": { "label": "Abrir no Figma", "href": "" }
+  },
+
+  "validation": {
+    "methodology": "Teste de usabilidade moderado com 5 pessoas usando o protótipo clicável, observando e anotando dificuldades.",
+    "tasks": [
+      "Agendar uma revisão para a próxima semana",
+      "Remarcar um horário já agendado",
+      "Encontrar o histórico de um veículo (oficina)"
+    ],
+    "metrics": [
+      { "label": "Conclusão das tarefas", "value": "87%", "hint": "13 de 15 tarefas" },
+      { "label": "Tempo médio de agendamento", "value": "1m40s" },
+      { "label": "SUS", "value": "78", "hint": "acima de 68 é considerado bom" }
+    ],
+    "worked": [
+      "Fluxo de agendamento em 3 passos",
+      "Confirmação direto no WhatsApp"
+    ],
+    "didntWork": [
+      "Rótulo \"Slot\" não foi entendido",
+      "Remarcar estava escondido no menu"
+    ],
+    "iterations": [
+      "Troca de \"Slot\" por \"Horário disponível\"",
+      "Botão \"Remarcar\" levado para a tela de confirmação",
+      "Aumento do contraste dos status na agenda"
+    ]
+  },
+
+  "solution": {
+    "features": [
+      { "title": "Link de agendamento", "description": "Um link único para enviar pelo WhatsApp ou colocar no Instagram." },
+      { "title": "Confirmação automática", "description": "Mensagem enviada ao cliente assim que o horário é marcado." },
+      { "title": "Lembrete no dia anterior", "description": "Reduz faltas sem a oficina precisar lembrar de ninguém." },
+      { "title": "Agenda do dia", "description": "Visão clara do que entra, do que está em andamento e do que está pronto." },
+      { "title": "Aviso de carro pronto", "description": "Um clique e o cliente é avisado." },
+      { "title": "Histórico do veículo", "description": "Serviços anteriores sempre à mão no atendimento." }
+    ],
+    "differentials": [
+      "Funciona dentro do WhatsApp que a oficina já usa",
+      "Sem instalação e sem treinamento longo",
+      "Feito para oficina pequena, não para rede grande"
+    ],
+    "media": [
+      { "alt": "Fluxo de agendamento", "suggestion": "GIF do fluxo de agendamento no celular" },
+      { "alt": "Mensagem no WhatsApp", "suggestion": "Print da confirmação recebida no WhatsApp" },
+      { "alt": "Painel da oficina", "suggestion": "Print da agenda do dia no notebook" }
+    ]
+  },
+
+  "tech": {
+    "stack": [
+      { "group": "Front-end", "items": ["React", "Vite", "Tailwind CSS", "Motion"] },
+      { "group": "Back-end e automação", "items": ["Node.js", "WhatsApp Business API"] },
+      { "group": "Dados", "items": ["Planilhas Google", "PostgreSQL (evolução)"] },
+      { "group": "Design", "items": ["Figma"] }
+    ],
+    "architecture": [
+      { "layer": "Interface", "items": ["Link de agendamento", "Painel da oficina"] },
+      { "layer": "Automação", "items": ["Confirmação", "Lembrete", "Aviso de carro pronto"] },
+      { "layer": "Integrações", "items": ["WhatsApp Business", "Google Agenda"] },
+      { "layer": "Dados", "items": ["Clientes", "Veículos", "Agendamentos"] }
+    ],
+    "repository": { "label": "Ver repositório", "href": "" }
+  },
+
+  "results": {
+    "achievements": [
+      "Pesquisa com motoristas e donos de oficina concluída",
+      "Protótipo de média fidelidade validado com 5 pessoas",
+      "Três melhorias aplicadas após o teste"
+    ],
+    "metrics": [
+      { "label": "Pessoas ouvidas", "value": "27" },
+      { "label": "Telas prototipadas", "value": "4" },
+      { "label": "SUS do protótipo", "value": "78" }
+    ],
+    "roadmap": [
+      { "phase": "Descoberta", "status": "done", "items": ["Pesquisa", "Personas", "Jornada"] },
+      { "phase": "Protótipo", "status": "done", "items": ["Telas principais", "Teste com usuários"] },
+      { "phase": "MVP", "status": "doing", "items": ["Agenda online", "Confirmação no WhatsApp"] },
+      { "phase": "Piloto", "status": "next", "items": ["Teste em uma oficina real", "Medir redução de faltas"] }
+    ]
+  },
+
+  "team": {
+    "company": {
+      "name": "Malha",
+      "mission": "Conectar as ferramentas que pequenos negócios já usam para que sobre tempo para o que importa.",
+      "vision": "Ser a primeira escolha de automação e presença digital para negócios locais."
+    },
+    "members": [
+      { "name": "Integrante 1", "role": "Product Design e pesquisa" },
+      { "name": "Integrante 2", "role": "Desenvolvimento front-end" },
+      { "name": "Integrante 3", "role": "Desenvolvimento back-end" }
+    ],
+    "contact": [
+      { "label": "contato@malha.tech", "href": "mailto:contato@malha.tech" },
+      { "label": "@malha.tech", "href": "https://instagram.com/malha.tech" }
+    ]
+  },
+
+  "executiveSummary": [
+    "Oficinas pequenas perdem horários por esquecimento e atendem agendamento no improviso.",
+    "O Agenda Oficina leva o agendamento para dentro do WhatsApp, com confirmação e lembrete automáticos.",
+    "O protótipo foi validado com 5 pessoas (SUS 78) e o MVP está em desenvolvimento."
+  ],
+
+  "footer": {
+    "quickLinks": [
+      { "label": "Início", "href": "/" },
+      { "label": "Trabalhos", "href": "/#trabalhos" },
+      { "label": "Contato", "href": "/#contato" }
+    ],
+    "credits": "Projeto acadêmico desenvolvido pela equipe Malha."
+  }
+}
