@@ -7,7 +7,7 @@ import { ScrollToHash } from "./components/ScrollToHash";
 import "./app.css";
 
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter>
+     <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, "")}>
     <ScrollToHash />
     <Routes>
       {/* Página inicial (landing page) */}
