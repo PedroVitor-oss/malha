@@ -1,0 +1,136 @@
+{
+  "company": {
+    "name": "Malha",
+    "fullName": "Malha Sites & Automação",
+    "city": "Curitiba, PR",
+    "foundedYear": "2025",
+    "slogan": "Conectamos o que sua empresa já usa."
+  },
+
+  "hero": {
+    "eyebrow": "Malha — sites & automação",
+    "headline": "Sua empresa já usa boas ferramentas. A gente faz elas conversarem entre si.",
+    "paragraph": "Fazemos sites e automações para negócios locais que estão cansados de perder tempo com WhatsApp, planilha e sistema que não se falam. Tudo começa com um diagnóstico gratuito, sem compromisso.",
+    "primaryCta": { "label": "Saiba mais", "href": "#o-que-fazemos" },
+    "secondaryCta": { "label": "Agendar diagnóstico gratuito", "href": "#contato" }
+  },
+
+  "whatWeDo": {
+    "eyebrow": "O que fazemos",
+    "slogan": "Menos retrabalho, mais tempo pra tocar o negócio.",
+    "paragraph": "A Malha existe para pequenos negócios que crescem no improviso: planilha aqui, caderno ali, WhatsApp para tudo. A gente entra com um diagnóstico gratuito de 30 minutos, mapeia onde sua operação perde mais tempo e entrega a solução certa — um site que atende sozinho, ou uma automação que junta as pontas que hoje dependem de alguém copiar e colar.",
+    "pillars": [
+      {
+        "title": "Diagnóstico gratuito",
+        "description": "Uma conversa de 30 minutos, sem custo e sem compromisso, pra mapear onde você está perdendo tempo ou dinheiro."
+      },
+      {
+        "title": "Site que trabalha por você",
+        "description": "Presença online que apresenta seu negócio, responde as dúvidas mais comuns e transforma visita em contato."
+      },
+      {
+        "title": "Ferramentas conversando entre si",
+        "description": "WhatsApp, planilha e sistema integrados, para acabar com o trabalho manual repetido toda semana."
+      }
+    ]
+  },
+
+  "stats": [
+    { "value": "30 min", "label": "Diagnóstico gratuito, sem compromisso" },
+    { "value": "3", "label": "Segmentos atendidos hoje: oficinas, imobiliárias e escritórios" },
+    { "value": "100%", "label": "Foco em negócio local de Curitiba" },
+    { "value": "0", "label": "Cobrado antes de você entender o que precisa" }
+  ],
+
+  "works": {
+    "eyebrow": "Nossos trabalhos",
+    "heading": "O tipo de problema que resolvemos",
+    "paragraph": "Ainda estamos construindo nosso portfólio de clientes reais — estes são exemplos representativos do tipo de projeto que fazemos.",
+    "items": [
+      {
+        "tag": "Desenvolvimento",
+        "category": "Economia",
+        "segment": "Projeto de Faculdade",
+        "title": "Gamificação de educação financeira",
+        "description": "Site simples com o objetivo de ensinar educação financeira para jovens, com gamificação e integração com planilhas."
+      },
+      {
+        "tag": "Conceito",
+        "category": "Automação",
+        "segment": "Imobiliária pequena",
+        "title": "Planilha de imóveis conectada ao site",
+        "description": "A planilha que a imobiliária já usa pra controlar os imóveis passa a alimentar o site automaticamente — sem digitar o mesmo imóvel duas vezes."
+      },
+      {
+        "tag": "Conceito",
+        "category": "Integração",
+        "segment": "Escritório de contabilidade",
+        "title": "Triagem automática no WhatsApp",
+        "description": "Primeiras perguntas do cliente (documentos, prazos, valores) respondidas automaticamente, liberando a equipe para o que realmente precisa de atenção humana."
+      }
+    ]
+  },
+
+  "technologies": {
+    "eyebrow": "Nossas tecnologias",
+    "heading": "Como construímos",
+    "paragraph": "Ferramentas certas para negócio pequeno: rápidas de colocar no ar, fáceis de manter e sem custo de enterprise.",
+    "items": [
+      {
+        "name": "Sites institucionais",
+        "description": "Sites rápidos, responsivos e fáceis de encontrar no Google."
+      },
+      {
+        "name": "Automação de processos",
+        "description": "Tarefas manuais e repetitivas resolvidas com fluxos automáticos."
+      },
+      {
+        "name": "Integração de sistemas",
+        "description": "WhatsApp Business, planilhas, formulários e sistemas conversando entre si."
+      },
+      {
+        "name": "IA aplicada ao atendimento",
+        "description": "Respostas automáticas e triagem inteligente para o primeiro contato do cliente."
+      },
+      {
+        "name": "No-code & low-code",
+        "description": "Soluções entregues rápido, sem depender de sistemas caros ou complexos."
+      },
+      {
+        "name": "Cloud & hospedagem",
+        "description": "Site e ferramentas no ar, com domínio próprio e sem dor de cabeça técnica."
+      }
+    ]
+  },
+
+  "clients": {
+    "eyebrow": "Para quem trabalhamos",
+    "heading": "Negócios locais que vivem de gente, não de sistema",
+    "paragraph": "Começamos por três segmentos onde vemos a mesma dor se repetir: informação espalhada, retrabalho e tempo perdido.",
+    "segments": [
+      {
+        "name": "Oficinas mecânicas",
+        "description": "Agenda, orçamento e histórico do cliente organizados num só lugar."
+      },
+      {
+        "name": "Imobiliárias pequenas",
+        "description": "Imóveis publicados automaticamente, sem retrabalho de cadastro."
+      },
+      {
+        "name": "Escritórios de serviço",
+        "description": "Contábil, advocacia e engenharia de pequeno porte — menos tempo respondendo o mesmo e-mail."
+      }
+    ]
+  },
+
+  "contact": {
+    "eyebrow": "Contato",
+    "heading": "Vamos conversar sobre o seu negócio?",
+    "paragraph": "Sem discurso de venda. Primeiro a gente entende sua operação — o diagnóstico é gratuito.",
+    "whatsapp": { "label": "(41) 90000-0000", "href": "https://wa.me/5541900000000" },
+    "phone": { "label": "(41) 90000-0000", "href": "tel:+5541900000000" },
+    "email": { "label": "contato@malha.tech", "href": "mailto:contato@malha.tech" },
+    "instagram": { "label": "@malha.tech", "href": "https://instagram.com/malha.tech" },
+    "location": "Curitiba, PR"
+  }
+}

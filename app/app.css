@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  /* Ink — dark sections */
+  --color-ink: #14171f;
+  --color-ink-soft: #1b2029;
+  --color-ink-line: #2a2f3a;
+
+  /* Paper — light sections */
+  --color-paper: #ecebe5;
+  --color-paper-soft: #e2e0d8;
+  --color-paper-line: #cfccc0;
+
+  /* Text */
+  --color-cream: #f4f2ec;
+  --color-fog: #9297a1;
+  --color-graphite: #1a1c22;
+  --color-stone: #63625a;
+
+  /* Accents */
+  --color-thread: #e3a23d;
+  --color-thread-soft: #f0c583;
+  --color-signal: #49c6b4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink text-cream;
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--color-thread);
+  color: var(--color-graphite);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-thread);
+  outline-offset: 3px;
+}
